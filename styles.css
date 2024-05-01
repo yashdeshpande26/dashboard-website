@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    background-color: #5A9;  /* Greenish-blue color */
+    text-align: center;  /* Center-align text within the header */
+    padding: 20px;  /* Added padding for spacing */
+}
+
+.header h1, .header h2, .header a {
+    display: block;  /* Ensure each element is on a new line */
+    margin-top: 10px;  /* Spacing between elements */
+}
+
+.learn-more {
+    background-color: #1E90FF;  /* Change to Dodger Blue */
+    color: white;  /* Text color for contrast */
+    padding: 10px 20px;  /* Padding for button-like appearance */
+    border-radius: 5px;  /* Rounded corners */
+    text-decoration: none;  /* No underlining */
+    display: inline-block;  /* Ensure it can be styled as a button */
+}
+
+.learn-more:hover {
+    background-color: #1C86EE;  /* Slightly darker blue on hover */
+}
+
+
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.column
+{
+    flex:1;
+    text-align: center;
+    background-color: antiquewhite;
+    margin:5px;
+    padding: 10px;
+}
+
+.column img
+{
+    width: 500px;
+    height:auto;
+    margin-top: 10px;
+}

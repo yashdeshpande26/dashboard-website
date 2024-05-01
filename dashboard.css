@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;  /* Remove default body margin */
+    padding: 0;  /* Remove default body padding */
+}
+
+/* Main container for overall layout */
+.main {
+    width: 100%;  /* Ensure the main container spans the full width */
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;  /* Align elements at extremes */
+    align-items: center;  /* Center elements vertically */
+    background-color: rgba(0, 0, 0, 0.849);  /* Dark background for contrast */
+    padding: 10px;  /* Add some padding */
+}
+
+/* Styling for logo section in the header */
+.t1 {
+    color: white;
+    margin: 10px;  /* Add space around the logo */
+}
+
+/* Navbar styling */
+.navbar {
+    margin: 20px;  /* Outer margin for the navbar */
+}
+
+.navbar ul {
+    display: flex;  /* Display navbar items in a row */
+    gap: 10px;  /* Gap between navbar items */
+    list-style: none;  /* Remove bullet points */
+}
+
+.navbar a {
+    text-decoration: none;  /* No underline for links */
+    color: white;  /* White text for contrast */
+    font-weight: bold;  /* Bold text */
+}
+
+/* Dashboard styling */
+.dashboard {
+    width: 100%;  /* Full width */
+    padding: 20px;  /* Padding for inner content */
+    background-color: #f8f8f8;  /* Light background */
+}
+
+.t2 {
+    color: black;  /* Black text color */
+    text-align: left;  /* Align text to the left */
+}
+
+/* Table 1 styling */
+.table_1 {
+    border-collapse: collapse;  /* Remove space between cells */
+    width: 100%;  /* Table occupies full width */
+}
+
+.table_1 th, .table_1 td {
+    border: 1px solid #ddd;  /* Border around cells */
+    padding: 8px;  /* Padding for cells */
+}
+
+.table_1 tr:nth-child(even) {
+    background-color: rgb(240, 246, 246);  /* Light background for even rows */
+}
+
+.table_1 tr:nth-child(odd) {
+    background-color: rgb(162, 160, 160);  /* Darker background for odd rows */
+}
+
+/* Todo section styling */
+.todo {
+    width: 100%;  /* Full width */
+    padding: 20px;  /* Padding around the section */
+    background-color: #f0f0f0;  /* Light background color */
+}
+
+.t3 {
+    color: black;  /* Black text */
+    margin-bottom: 10px;  /* Add space between title and table */
+}
+
+/* Table 2 styling */
+.table_2 {
+    border-collapse: collapse;  /* Collapse cell borders */
+    border: 1mm black solid;  /* Solid border */
+    width: 100%;  /* Table occupies full width */
+}
+
+.table_2 td {
+    padding: 12px;  /* Extra padding for more spacing */
+}
